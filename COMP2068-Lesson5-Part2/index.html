@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Lesson 05 - Canvas Example</title>
+    <!-- CSS Section -->
+    <link href="css/main-2.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+
+
+        function init() {
+
+            // get a reference to the canvas object
+            // by passing in the id of our canvas element
+            var can = document.getElementById("myCanvas");
+
+            // get the drawing context by using the getContext
+            // method of the Canvas class
+            // then pass in "2d" as the canvas context
+            var ctx = can.getContext("2d");
+            ctx.font = "20px Arial";
+            ctx.fillText("Hello World", 50, 50);
+        }
+
+    </script>
+</head>
+<body onload="init()">
+    <!-- canvas tag that defines the canvas element -->
+    <canvas id="myCanvas" width="640" height="480">
+        <!-- alernate text for browsers that do not support the Canvas element -->
+        Your browser does not support the canvas element. <br>
+    </canvas>
+</body>
+</html>
