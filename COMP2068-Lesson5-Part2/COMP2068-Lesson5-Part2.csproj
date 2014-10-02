@@ -85,6 +85,12 @@
     <Content Include="css\main-1.css" />
     <Content Include="css\main-2.css" />
     <Content Include="css\main-3.css" />
+    <Content Include="js\soundjs-1.js" />
+    <Content Include="js\tweenjs-1.js" />
+    <Content Include="sounds\chime.mp3" />
+    <Content Include="sounds\woosh.mp3" />
+    <Content Include="sound1.html" />
+    <Content Include="tween1.html" />
     <Content Include="easel1.html" />
     <Content Include="images\butterfly.png" />
     <Content Include="index.html" />
